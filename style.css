@@ -1,5 +1,6 @@
 body{
-    background-color: rgba(74, 72, 72, 0.55);
+    background-color:#FFFFFF;
+    font-family:sans-serif;
     /* margin: 0%; */
 }
 main{
@@ -18,7 +19,7 @@ main{
     padding: 20px 50px;
 }
 
-.row > div {
+.row  div {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -31,7 +32,7 @@ main{
 }
 
 h1 {
-    margin: 0;
+    margin:0px;
     font-size: 24px;
 }
 
@@ -150,9 +151,8 @@ main {
     font-size:22px;
     font-weight: bolder;
     color:#4d4d4d;
-    margin-top: 0;
-    padding-bottom: 0;
-    margin-bottom: 0;
+    padding-top:20px;
+    padding-bottom: 10px;
 
 }
 .para p{
@@ -445,13 +445,13 @@ main {
 .bottom {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+    gap:20px;
     justify-items: center;
 }
 
 .card6 {
     position: relative;
-    width: 300px;
+    width:300px;
 }
 
 .card6 img {
@@ -465,11 +465,11 @@ main {
     position: absolute;
     z-index: 2;
     background-color: #F5F7FA;
-    width: 240px;
-    height:120px;
+    width:240px;
+    height:140px;
     left: 30px;
     bottom: -50px;
-    padding: 15px;
+    padding: 10px;
     border-radius: 8px;
     /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
