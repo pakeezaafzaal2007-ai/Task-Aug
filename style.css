@@ -61,6 +61,7 @@ main {
     margin-bottom: 0%;
 }
 
+
 .hero-content {
     height: 100%;
     display: grid;
@@ -111,6 +112,25 @@ main {
 .image-box img {
     width: 250px;
     height: auto;
+}
+.slider-dots{
+    text-align:center;
+    padding:10px;
+}
+
+
+.slider-dots span{
+    display:inline-block;
+    width:7px;
+    height:7px;
+    border-radius:50%;
+    background:#C8E6C9;
+    margin:3px;
+}
+
+
+.slider-dots span:first-child{
+    background:#4CAF50;
 }
 .clients{
     height:132px;
